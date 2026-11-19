@@ -1,0 +1,8 @@
+streamlit>=1.60
+altair>=5
+pydeck>=0.9
+pandas
+numpy
+# optional UI components: the app falls back to native widgets without them
+streamlit-antd-components==0.3.2
+streamlit-extras

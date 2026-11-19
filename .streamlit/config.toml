@@ -1,0 +1,30 @@
+# Theme from collor-pallete-refferences.png: off-white page with navy ink and
+# mustard accents; the sidebar takes the reference's navy panel.
+# Fonts: one family per "<name>:<url>" value (Streamlit splits at the first colon,
+# so no fallback list may follow the URL).
+
+[theme]
+base = "light"
+backgroundColor = "#F6F1E7"
+secondaryBackgroundColor = "#ECE3D0"
+textColor = "#2B2A28"
+primaryColor = "#263C75"
+linkColor = "#263C75"
+borderColor = "#DDD2BC"
+baseRadius = "small"
+font = "Lato:https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+headingFont = "'EB Garamond':https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&display=swap"
+headingFontWeights = 600
+metricValueFontSize = "1.6rem"
+# Validated on #F6F1E7 (adjacent CVD ΔE >= 8.8); same order as charts.CAT.
+chartCategoricalColors = ["#3557A8", "#D9A23A", "#B03A3E", "#0F8F7A", "#7286D6", "#C8683A", "#7A4E9C", "#6F8F2E"]
+# Navy ramp, OKLab-interpolated, lightness strictly decreasing.
+chartSequentialColors = ["#e6ecf8", "#cad6f0", "#afc1e7", "#95abde", "#7c96d5", "#6580c2", "#5169a8", "#3e538e", "#2c3e74", "#1b2a5c"]
+
+[theme.sidebar]
+backgroundColor = "#263C75"
+secondaryBackgroundColor = "#31488A"
+textColor = "#F3EBDD"
+primaryColor = "#E6B45E"
+linkColor = "#E6B45E"
+borderColor = "#41579A"
